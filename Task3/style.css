@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 217, 0, 0.493);
+}
+.left{
+    width: 45%;
+    height: auto;
+    margin-top: 6%;
+}
+.left img{
+    padding: 3%;
+    margin-left: 5%;
+    width: 500px;
+    height: auto;
+}
+.left h1{
+    margin-left: 18%;
+}
+.left p{
+    margin-left: 13%;
+    font-size: 17px;
+    margin-top: 5%;
+    line-height: 30px;
+    text-align: justify;
+}
+.resume{
+    float: right;
+    margin-top: -50%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    background-color: beige;
+    padding: 5%;
+}
+form {   
+    width: 100%;
+    height: auto;
+}
+form img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #dfdfdf;
+}
+
+
+.input-fields {
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.input-fields input,
+textarea {
+    width: 100%;
+    height: 40px;
+}
+input:focus,
+textarea:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+.main {
+    margin-top: 42%;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    background-color: rgb(83, 61, 61);
+    color: white;
+    margin-right: 14%;
+    /* margin-left: 5%; */
+}
+
+.main h2 {
+    border-bottom: 2px solid rgb(7, 7, 7);
+    width: max-content;
+    color: white
+}
+#one{
+    width: 60%;
+    height: auto;
+}
+#two{
+    width: 35%;
+    height: auto;
+}
+
+.btn {
+    text-align: center;
+    margin: 2px;
+}
+
+button {
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
